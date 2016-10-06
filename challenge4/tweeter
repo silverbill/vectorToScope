@@ -1,0 +1,18 @@
+using System;
+
+
+
+class ReplaceSubstrings
+{
+    string searchFor;
+    string replaceWith;
+
+    static void Main(string[] args)
+    {
+
+        ReplaceSubstrings app = new ReplaceSubstrings();
+        string s = "I really like naps.";
+		s = s.Replace('n', 'm');
+        Console.WriteLine(s);
+	}
+}	
